@@ -19,6 +19,10 @@ catkin_make
         gamma=YOUR_FILE_PATH/pcalib.txt \
         vignette=YOUR_FILE_PATH/vignette.png
 ```
+## 4. play bag
+```sh
+rosbag play YOUR_BAG_FILE YOUR_IMG_TOPIC:=image
+```
 
 # Origin Description
 # DSO: Direct Sparse Odometry
